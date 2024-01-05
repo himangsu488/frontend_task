@@ -1,0 +1,205 @@
+/*---------------------Landingpage*/
+.landingpage-main{
+    max-width: 1320px;
+    margin: auto;
+}
+.logo_binbag{
+    max-width: 120px;
+}
+
+.landingpage-welcome{
+    text-align: center;
+    letter-spacing: 13px;
+    word-spacing: 10px;
+    margin-top: 60px;
+    font-weight: 800;
+}
+.landingpage-form{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(217, 217, 217);
+    border-radius: 7px;
+}
+
+.landingpage-role{
+    text-align: center;
+    background-color: rgb(197, 254, 165);
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-size: 25px;
+}
+.role-select{
+    display: flex;
+}
+.role-option{
+    flex-basis: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+.role-option-input, .role-option-label{
+    transform: scale(1.5);
+    font-size: 20px;
+}
+
+.landingpage-button-main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landingpage-button {
+    width: 50%;
+    cursor: pointer;
+    height: 40px;
+    border: solid 1px;
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .landingpage-button:hover{
+    background-color: rgb(0, 255, 8);
+    transform: scale(1.1);
+  }
+
+  /*-------------------------Navbar*/
+
+  .navbar-main {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-content a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-content a:hover {
+    background-color: #c8c8c8;
+    border-radius: 20px;
+  }
+  
+  .nav-link{
+    font-size: 18px;
+  }
+
+  .current-role-main {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+  
+  .current-role {
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  
+  .role-switch {
+    background-color: #224dfb;
+    color: #fff;
+    border: none;
+    padding: 4px 16px;
+    cursor: pointer;
+  }
+  
+  .role-switch:hover {
+    background-color: #2fff00;
+    color: black;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar-header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .navbar-content a {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 460px) {
+    .navbar-header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .navbar-content a {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  /*-------------------------Employee Home*/
+
+  .employee-home{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+
+  }
+
+  /*-------------------------Employee table*/
+
+
+.employees-title{
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+.employee-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.employee-table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+@media (max-width: 600px) {
+  th, td {
+    font-size: 12px;
+  }
+}
